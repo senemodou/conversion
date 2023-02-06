@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> conversion base</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div id="logo">
+		<img src="imgages/profile.jpg" alt="">
+	</div>
+	<div id="contenu">
+		<h1>CONVERTISSEUR DE BASE</h1>
+		<label>BINAIRE</label><br>
+		<span id="base invalide"></span><br>
+		<input onblur="conversionbinaire()" type="text" id="binaryValue"><br>
+		<label>DECIMAL</label><br>
+		<span id="base invalide"></span><br>
+     <input type="text" onblur="conversiondecimal()" id="decimalValue" name=""><br>
+		<label>HEXADECIMAL</label><br>
+		<span id="base invalide"></span><br>
+		<input type="text" onblur="conversionhexadecimal()" id="hexadecimalValue" name=""><br>
+		<button id="bouton">Valider</button>
+	</div>
+</body>
+<script type="text/javascript" src="script.js"></script>
+</html>

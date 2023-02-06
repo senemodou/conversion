@@ -1,0 +1,40 @@
+body{
+	font-size: 20px;
+	background-color: purple;
+	font-family: cambria;
+}
+#contenu
+{
+	width: 70%;
+	margin: 5% 0 0 10%;
+	border:3px solid darkred;
+	padding:20px;
+	border-radius: 20px;
+	background-color: brown;
+}
+input
+{
+	padding: 5px;
+	font-size: 20px;
+	width: 100%
+
+}
+h1
+{
+	text-align: center;
+}
+button{
+	border-radius: 20px;
+	width: 100%;
+	background-color: indigo;
+	font-size: 20px;
+	font-weight: bold;
+	padding: 5px;
+	color: green;
+	margin-top: 1%;
+}
+img{
+	width: 100px;
+	height: 100px;
+	border-radius: 100%;
+}
